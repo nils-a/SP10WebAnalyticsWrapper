@@ -32,11 +32,11 @@
   <ItemGroup>
     <Reference Include="Microsoft.Office.Server.WebAnalytics, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\Windows\assembly\GAC_MSIL\Microsoft.Office.Server.WebAnalytics\14.0.0.0__71e9bce111e9429c\Microsoft.Office.Server.WebAnalytics.dll</HintPath>
+      <HintPath>$(WINDIR)\assembly\GAC_MSIL\Microsoft.Office.Server.WebAnalytics\14.0.0.0__71e9bce111e9429c\Microsoft.Office.Server.WebAnalytics.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Office.Server.WebAnalytics.UI, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\Windows\assembly\GAC_MSIL\Microsoft.Office.Server.WebAnalytics.UI\14.0.0.0__71e9bce111e9429c\Microsoft.Office.Server.WebAnalytics.UI.dll</HintPath>
+      <HintPath>$(WINDIR)\assembly\GAC_MSIL\Microsoft.Office.Server.WebAnalytics.UI\14.0.0.0__71e9bce111e9429c\Microsoft.Office.Server.WebAnalytics.UI.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.SharePoint, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL" />
     <Reference Include="System" />
